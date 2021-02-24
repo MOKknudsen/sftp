@@ -118,5 +118,5 @@ fi
 mkdir -p /sftp/
 
 chown root:root /sftp
-chmod -R 777 /sftp/
+chmod -R 755 /sftp/
 
