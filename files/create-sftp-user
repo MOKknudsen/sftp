@@ -117,4 +117,4 @@ fi
 # Added by Morten Knudsen
 mkdir -p "/data"
 chown root:root "/data"
-chmod 775 "/data"
+chmod 775 -R "/data"
