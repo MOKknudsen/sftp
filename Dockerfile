@@ -10,8 +10,8 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/* && \
     mkdir -p /var/run/sshd && \
 
-# Removed this line - Morten Knudsen
-rm -f /etc/ssh/ssh_host_*key*
+# Removed this line to keep host-keys - Morten Knudsen
+# rm -f /etc/ssh/ssh_host_*key*
 
 COPY files/sshd_config /etc/ssh/sshd_config
 COPY files/create-sftp-user /usr/local/bin/
