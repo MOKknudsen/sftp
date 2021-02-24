@@ -18,7 +18,7 @@ Subsystem sftp internal-sftp
 ForceCommand internal-sftp -d /data
 
 # Changed by Morten Knudsen, 2LINKIT - previously ChrootDirectory %h
-ChrootDirectory /
+ChrootDirectory /data
 
 # Enable this for more logs
 #LogLevel VERBOSE
