@@ -118,6 +118,6 @@ fi
 mkdir -p /sftp/
 mkdir -p /sftp/data/
 
-chown root:root /sftp/data/
+chown root:group_777 /sftp/data/
 chmod -R 777 /sftp/
 chmod -R 777 /sftp/data/
