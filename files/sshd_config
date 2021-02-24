@@ -16,10 +16,9 @@ AllowTcpForwarding no
 # Force sftp and chroot jail
 Subsystem sftp internal-sftp
 
-# Changed by Morten Knudsen, 2LINKIT - previously ChrootDirectory %h
+# Changed by Morten Knudsen, 2LINKIT
 ChrootDirectory /sftp
 ForceCommand internal-sftp
-#ForceCommand internal-sftp -d /data/
 
 # Enable this for more logs
 #LogLevel VERBOSE
