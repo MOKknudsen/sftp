@@ -17,7 +17,7 @@ AllowTcpForwarding no
 Subsystem sftp internal-sftp
 
 # Changed by Morten Knudsen, 2LINKIT - previously ChrootDirectory %h
-ForceCommand internal-sftp -d /sftp/
+ForceCommand internal-sftp -d /sftp/data/
 #ChrootDirectory /sftp/
 
 # Enable this for more logs
