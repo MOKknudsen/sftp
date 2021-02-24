@@ -119,5 +119,5 @@ mkdir -p /sftp/
 mkdir -p /sftp/data/
 
 chown root:root /sftp/data/
-# chgrp group_777 /sftp/data/
-chmod 777 -R /sftp/data/
+chmod -R 777 /sftp/
+chmod -R 777 /sftp/data/
