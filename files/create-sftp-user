@@ -116,5 +116,8 @@ fi
 #-----------------------------------------------------------------------
 # Added by Morten Knudsen
 mkdir -p "/data"
-chown root:root "/data"
-chmod 777 -R "/data"
+mkdir -p "/data/sftp"
+
+chown root:root "/data/sftp"
+chgrp group_777 /data/sftp
+chmod 777 -R "/data/sftp"
