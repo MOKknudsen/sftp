@@ -21,4 +21,4 @@ ChrootDirectory /sftp
 ForceCommand internal-sftp
 
 # Enable this for more logs
-#LogLevel VERBOSE
+LogLevel VERBOSE
